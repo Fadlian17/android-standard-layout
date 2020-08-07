@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity">
+
+    <ImageView
+        android:id="@+id/img_app"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_app"
+        android:text="Telur"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/img_app" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="1 kg"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/img_app"
+        app:layout_constraintTop_toBottomOf="@id/txt_name" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="Rp. 26.000"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/img_app"
+        app:layout_constraintTop_toBottomOf="@id/txt1" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_marginLeft="8sp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="30-12-2020  10:00"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/txt2"
+        app:layout_constraintTop_toBottomOf="@id/txt1" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_app" />
+
+
+    <ImageView
+        android:id="@+id/img_app2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_names"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_app2"
+        android:text="Gula"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/line1"
+        app:layout_constraintLeft_toRightOf="@id/img_app2"/>
+
+    <TextView
+        android:id="@+id/txts1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_names"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="1 kg"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/img_app2"
+        app:layout_constraintTop_toBottomOf="@id/txt_names" />
+    <TextView
+        android:id="@+id/txts2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_names"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="Rp. 26.000"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/img_app2"
+        app:layout_constraintTop_toBottomOf="@id/txts1" />
+
+    <TextView
+        android:id="@+id/txts3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_marginLeft="8sp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="30-12-2020  10:00"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/txts2"
+        app:layout_constraintTop_toBottomOf="@id/txts1" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_app2" />
+
+    <ImageView
+        android:id="@+id/img_app3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="190dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_names2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_app2"
+        android:text="Beras"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/line2"
+        app:layout_constraintLeft_toRightOf="@id/img_app2"/>
+
+    <TextView
+        android:id="@+id/txtss1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_names"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="25 kg"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/img_app3"
+        app:layout_constraintTop_toBottomOf="@id/txt_names2" />
+    <TextView
+        android:id="@+id/txtss2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_names"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="Rp. 250.000"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/img_app3"
+        app:layout_constraintTop_toBottomOf="@id/txtss1" />
+
+    <TextView
+        android:id="@+id/txtss3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_marginLeft="8sp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:scaleType="fitXY"
+        android:text="30-12-2020  10:00"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/txtss2"
+        app:layout_constraintTop_toBottomOf="@id/txtss1" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_app3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

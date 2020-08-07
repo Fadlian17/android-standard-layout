@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MusicActivity">
+
+    <ImageView
+        android:id="@+id/ivClip"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lagu Pop Indonesia 2020"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
+        android:background="#2F4EFA"
+        app:layout_constraintTop_toBottomOf="@id/ivClip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        />
+    <ProgressBar
+        android:id="@+id/pbAction"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2F4EFA"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:progress="60"
+        />
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_play"
+        app:layout_constraintTop_toBottomOf="@+id/pbAction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_skip"
+        app:layout_constraintStart_toEndOf="@+id/play"
+        app:layout_constraintTop_toBottomOf="@id/pbAction" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/ic_previous"
+        app:layout_constraintEnd_toStartOf="@+id/play"
+        app:layout_constraintTop_toBottomOf="@id/pbAction" />
+
+    <ProgressBar
+        android:id="@+id/pbAction2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2F4EFA"
+        app:layout_constraintTop_toBottomOf="@id/play"
+        android:progress="60"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

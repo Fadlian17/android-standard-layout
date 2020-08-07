@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidStandard</string>
+    <string name="registrasi">registrasi</string>
+    <string name="belanja">Belanja</string>
+    <string name="musik">Musik</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="email">Email</string>
+    <string name="daftar_baru">Daftar</string>
+    <string name="ulangi_password">Ulangi Password</string>
+</resources>
