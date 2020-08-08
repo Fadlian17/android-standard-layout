@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="325dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/musicTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Lathi --Weird Genius"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Kekasih Bayangan --Cakra Khan"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Secukupnya --Hindia"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Gemintang Hatiku --Tiara Andini"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Sedang Sayang Sayangnya - Mawar De Jongh."
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Awas Jatuh Cinta --Armada"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Kumau Dia --Andmesh"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Bebas --Iwa K"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Dalan Liyane --Via Vallen"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/musicTitle10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_top"
+            android:text="Pura Pura Cinta --Cherrybelle"
+            android:background="@drawable/border"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

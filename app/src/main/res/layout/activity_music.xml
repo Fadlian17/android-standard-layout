@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:background="#A8E6E0"
     tools:context=".MusicActivity">
 
     <ImageView
         android:id="@+id/ivClip"
-        android:layout_width="200dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@drawable/album"
         android:adjustViewBounds="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Lagu Pop Indonesia 2020"
+        android:text="Top List Indonesia Music 2020"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textAllCaps="true"
@@ -47,8 +47,8 @@
         />
     <ImageView
         android:id="@+id/play"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:src="@drawable/ic_play"
         app:layout_constraintTop_toBottomOf="@+id/pbAction"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,8 +57,8 @@
         />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/ic_skip"
@@ -66,8 +66,8 @@
         app:layout_constraintTop_toBottomOf="@id/pbAction" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         android:src="@drawable/ic_previous"
@@ -84,6 +84,22 @@
         android:progress="60"
         />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbAction2"
+        android:orientation="vertical">
+
+    <include
+        layout="@layout/list_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pbAction2"/>
+
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
